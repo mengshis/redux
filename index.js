@@ -6,6 +6,7 @@
 const Store=require('./Store-3');
 exports.createStore=function createStore(updaters,defaultState) {
     console.log('test')
+    console.log('test')
     const sto=new Store(defaultState);
     sto.setUpdaters(updaters);
     return sto;
